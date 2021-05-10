@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+footer {
+
+    width: 100%;
+
+    position: absolute;
+    bottom: 0;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0%;
+
+    div, h1 {
+        display: inline-block;
+    }
+
+    li, a {
+        display: inline-block;
+        list-style: none;
+        text-decoration: none;
+        padding: 0px 10px;
+    }
+
+    img {
+        height: 75%;
+        width: 75%;
+    }
+    .social_image:hover {
+        color: aqua;
+    }
+  }
+
+  
