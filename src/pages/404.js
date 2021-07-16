@@ -1,6 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { NavBar } from "../components/navbar"
+import { NavBar } from "../components/navbar/navbar"
 
 // styles
 const pageStyles = {
