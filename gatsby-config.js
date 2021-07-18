@@ -11,13 +11,13 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-source-graphql',
+      resolve: "gatsby-source-graphql",
       options: {
-        typeName: 'GitHub',
-        fieldName: 'github',
-        url: 'https://api.github.com/graphql',
+        typeName: "GitHub",
+        fieldName: "github",
+        url: "https://api.github.com/graphql",
         headers: {
-          Authorization: `bearer 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`,
+          Authorization: `bearer ${process.env.BEARER_TOKEN}`,
         },
         fetchOptions: {},
       },
