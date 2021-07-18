@@ -3,4 +3,4 @@ node_modules/
 public
 /src/pages/contact.js
 /src/context
-gatsby-config.js
+.env
